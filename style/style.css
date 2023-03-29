@@ -1,0 +1,141 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7f8;
+}
+
+header{
+    height: 110px;
+    background-color: white;
+    font-size: 2rem;
+    padding: 1.2rem 2rem;
+    margin-bottom: 3rem;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main{
+    width: 65%;
+    margin: 0 auto;
+    background-color: magenta;
+}
+
+section{
+    background-color: white;
+    padding-left: 4rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.main-logo{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.btn{
+    border: none;
+    padding: .4rem .85rem;
+    border-radius: 6px;
+    font-size: .75rem;
+    margin-right: .25rem;
+    margin-bottom: .5rem;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #47acf0;
+    border: #47acf0 solid 1px;
+}
+
+.btn-white{
+    color: grey;
+    background-color: white;
+    border: 1px rgb(98, 98, 98) solid;
+}
+
+.task-title{
+    padding-top: 2.5rem;
+}
+
+.task{
+    padding-top: 1rem;
+    padding-left: .33rem;
+}
+
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-right: .5rem;
+}
+
+.circle-green{
+    color:rgb(30, 213, 30);
+    border: 1px solid rgb(30, 213, 30);
+}
+
+.circle-red{
+    color:red;
+    border: 1px solid red;
+}
+
+.tag{
+    padding: .5rem 1rem;
+    color: white;
+    font-size: .8rem;
+    border-radius: 12px;
+}
+
+.tag-blue{
+    background-color: #47acf0;
+}
+
+.tag-violet{
+    background-color: violet;
+}
+
+.tag-green{
+    background-color: rgb(57, 216, 142);
+}
+
+.tag-orange{
+    background-color: orange;
+}
+
+.tag-pink{
+    background-color: violet;
+}
+
+.tag-light-green{
+    background-color: rgb(166, 192, 34);
+}
+
+.arrow-down{
+    font-size: 2.55rem;
+    vertical-align: middle;
+}
+
+
+#taskbar{
+    padding-top: 1rem;
+    border-bottom:  #f5f7f8      solid 2px;
+}
+
+#todolist{
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+}
